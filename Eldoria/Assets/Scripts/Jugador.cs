@@ -28,8 +28,30 @@ public class Jugador : MonoBehaviour
     private float alturaOriginal; // Almacenará la altura original del CapsuleCollider
     private Vector3 centroOriginal; // Almacenará el centro original del CapsuleCollider
 
+    public Arma armaActual; // La referencia al arma actual
+    public Arma espada1;
+    public Arma espada2;
+    public Arma espada3;
+    public Arma hacha1;
+    public Arma hacha2;
+    public Arma hacha3;
+    public Arma escudo1;
+    public Arma escudo2;
+
     public GameObject espada_1; // Cambiado de Object a GameObject
+    public GameObject espada_2;
+    public GameObject espada_3;
+    public GameObject hacha_1;
+    public GameObject hacha_2;
+    public GameObject hacha_3;
+    public GameObject escudo_1;
+    public GameObject escudo_2;
     private Renderer espadaRenderer; // Añadido para acceder al componente Renderer
+
+    public float daño;
+    public float bloqueo;
+    public float resistencia;
+    public float salud;
 
 
     void Start()
@@ -38,9 +60,15 @@ public class Jugador : MonoBehaviour
         alturaOriginal = capsuleCollider.height;
         centroOriginal = capsuleCollider.center;
 
-        // Obtenemos el componente Renderer de la espada
-        espadaRenderer = espada_1.GetComponent<Renderer>();
-        espadaRenderer.enabled = false; // Ocultamos la espada al inicio
+        ocultarArma(espada_1);
+        ocultarArma(espada_2);
+        ocultarArma(espada_3);
+        ocultarArma(hacha_1);
+        ocultarArma(hacha_2);
+        ocultarArma(hacha_3);
+        ocultarArma(escudo_1);
+        ocultarArma(escudo_2);
+
     }
 
     // Update is called once per frame
@@ -55,15 +83,25 @@ public class Jugador : MonoBehaviour
         animator.SetFloat("VelX", x);
         animator.SetFloat("VelY", y);
 
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            animator.Play("Bloquear");
+        }
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            animator.Play("Ataque");
+        }
+     
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            espadaRenderer.enabled = true; // Mostramos la espada
+            // SeleccionarArma(espada1);
+            mostrarArma(espada_1);
         }
         // Ocultar la espada cuando se suelta el clic izquierdo del ratón
         else if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            espadaRenderer.enabled = false; // Ocultamos la espada
+            ocultarArma(espada_1);
         }
 
         // Verificar si se presiona la tecla Shift para cambiar entre caminar y correr
@@ -138,4 +176,93 @@ public class Jugador : MonoBehaviour
         capsuleCollider.height = alturaOriginal;
         capsuleCollider.center = centroOriginal;
     }
+
+    void SeleccionarArma(Arma nuevaArma)
+    {
+
+        armaActual = nuevaArma;
+        // Actualizar las estadísticas del jugador según el arma seleccionada
+        daño = nuevaArma.daño;
+        // Puedes hacer lo mismo con otras estadísticas del jugado
+
+        // Activar solo el objeto del arma seleccionada
+        if (nuevaArma == espada1)
+        {
+            mostrarArma(espada_1);
+        }
+        else if (nuevaArma == espada2)
+        {
+            mostrarArma(espada_2);
+        }
+        else if (nuevaArma == espada3)
+        {
+            mostrarArma(espada_3);
+        }
+        else if (nuevaArma == hacha1)
+        {
+            mostrarArma(hacha_1);
+        }
+        else if (nuevaArma == hacha2)
+        {
+            mostrarArma(hacha_2);
+        }
+        else if (nuevaArma == hacha3)
+        {
+            mostrarArma(hacha_3);
+        }
+        else if (nuevaArma == escudo1)
+        {
+            mostrarArma(escudo_1);
+        }
+        else if (nuevaArma == escudo2)
+        {
+            mostrarArma(escudo_2);
+        }
+    }
+
+    public void mostrarArma(GameObject arma)
+    {
+        // Obtenemos el componente Renderer del arma
+        espadaRenderer = arma.GetComponent<Renderer>();
+        espadaRenderer.enabled = true;
+    }
+
+    public void ocultarArma(GameObject arma)
+    {
+        // Obtenemos el componente Renderer del arma
+        espadaRenderer = arma.GetComponent<Renderer>();
+        espadaRenderer.enabled = false;
+    }
 }
+
+[System.Serializable]
+public class Arma
+{
+    public string nombre;
+    public float daño;
+    public float velocidadAtaque;
+    // Puedes agregar más atributos según sea necesario
+
+    public Arma(string nombre, float daño, float velocidadAtaque)
+    {
+        this.nombre = nombre;
+        this.daño = daño;
+        this.velocidadAtaque = velocidadAtaque;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Verifica si el collider con el que colisionamos pertenece a un enemigo
+        if (other.CompareTag("Enemigo"))
+        {
+            // Acciones que realizas cuando el arma colisiona con un enemigo
+            Personaje enemigo = other.GetComponent<Personaje>(); // Obtén la referencia al script del enemigo
+            if (enemigo != null)
+            {
+                // Realiza las acciones necesarias en el enemigo, como aplicar daño
+                enemigo.RecibirDanio(daño);
+            }
+        }
+    }
+}
+
