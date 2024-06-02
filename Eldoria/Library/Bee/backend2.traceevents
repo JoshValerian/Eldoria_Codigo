@@ -1,0 +1,590 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1717327362636119, "dur":191, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327362636359, "dur":46246, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327362682615, "dur":148, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327362682818, "dur":403, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327362683424, "dur":127, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/level2.resS" }}
+,{ "pid":12345, "tid":0, "ts":1717327362683610, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/level4.resS" }}
+,{ "pid":12345, "tid":0, "ts":1717327362683985, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":0, "ts":1717327362683240, "dur":6450, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327362689693, "dur":195324293, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327558013990, "dur":414, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327558014405, "dur":207, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327558014627, "dur":483, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327558015414, "dur":2839, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717327362683823, "dur":5878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327362689704, "dur":2765, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327362693181, "dur":653, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1717327362693840, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717327362694022, "dur":10124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1717327362704148, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1717327362704422, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362704697, "dur":1374, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362706073, "dur":781, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362706856, "dur":994, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362707852, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362708109, "dur":365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362708476, "dur":408, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362708886, "dur":384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362709272, "dur":426, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362709699, "dur":263, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362709963, "dur":957, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362710922, "dur":220, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362693838, "dur":17609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717327362712265, "dur":124101, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717327362838192, "dur":1121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717327362838192, "dur":1123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717327362839372, "dur":20290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1717327362871561, "dur":57100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327362928692, "dur":11570, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1717327362928690, "dur":11575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1717327362940267, "dur":74995, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327363195713, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327363016024, "dur":179801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1717327363196100, "dur":10930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1717327363207052, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327363207390, "dur":7650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1717327363215069, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327363215419, "dur":7224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1717327363222668, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327363222791, "dur":10229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1717327363233045, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327363233145, "dur":10827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327363244040, "dur":12503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327363256662, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327363261292, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327363267140, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327363267291, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327363271718, "dur":6215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717327363277987, "dur":4886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1717327363282991, "dur":9669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1717327363292904, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717327363292961, "dur":7668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1717327363301253, "dur":194712727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327362685009, "dur":4869, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327362689879, "dur":2616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327362692527, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1717327362692497, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1717327362692589, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327362802082, "dur":28444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1717327362830570, "dur":9179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327362839955, "dur":88757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1717327362928741, "dur":10776, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1717327362928739, "dur":10782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1717327362939524, "dur":75870, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363195636, "dur":113, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363016064, "dur":179706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1717327363195967, "dur":6725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1717327363202723, "dur":3481, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363206217, "dur":63, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363206325, "dur":7491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1717327363213838, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363214170, "dur":7400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1717327363221606, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363221919, "dur":7786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1717327363229729, "dur":2099, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363231884, "dur":10380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717327363242287, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363253081, "dur":154, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363242359, "dur":10890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717327363253370, "dur":507, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363253952, "dur":6300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717327363260347, "dur":5936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717327363266312, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363266386, "dur":4169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717327363270605, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363270679, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363270734, "dur":4668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717327363275458, "dur":25118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1717327363300799, "dur":157, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717327363300958, "dur":3529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717327363304601, "dur":194709405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327362684180, "dur":5535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327362689719, "dur":269, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327362689988, "dur":2537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327362692526, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1717327362692588, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327362940541, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327362819257, "dur":121416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1717327362940707, "dur":8433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1717327362940705, "dur":8437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1717327363016026, "dur":179755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1717327363195952, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327363196119, "dur":6599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1717327363202755, "dur":3450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327363206238, "dur":8425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1717327363214683, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1717327363214756, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327363214901, "dur":6494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1717327363221479, "dur":7804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1717327363229372, "dur":12829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717327363242223, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327363242310, "dur":11051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717327363253431, "dur":445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327363253945, "dur":6469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717327363260501, "dur":5939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717327363266529, "dur":4195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717327363270744, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327363270872, "dur":5894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717327363282212, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327363276822, "dur":5467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717327363282544, "dur":18284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1717327363300924, "dur":95, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327363305134, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717327363301021, "dur":4288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1717327363305421, "dur":194708617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327362684479, "dur":5370, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327362689850, "dur":2633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327362692499, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717327362692484, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717327362692553, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327362694240, "dur":493506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717327363187790, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363188060, "dur":9003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1717327363197081, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363197186, "dur":9852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1717327363207056, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363207382, "dur":7645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1717327363215058, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363215434, "dur":7356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1717327363222834, "dur":1410, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363224261, "dur":7672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1717327363231949, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363243367, "dur":88, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363232116, "dur":11359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717327363243494, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363243591, "dur":12185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717327363255838, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363256158, "dur":4631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717327363260873, "dur":6057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717327363266940, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363267051, "dur":4589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717327363271715, "dur":7555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717327457034442, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717327363279326, "dur":93755207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1717327457034766, "dur":100979304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327362684632, "dur":5240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327362689873, "dur":2744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327362692618, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1717327362892239, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327362818858, "dur":73462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1717327362892359, "dur":22205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1717327362892357, "dur":22210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1717327362914568, "dur":13438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327362928395, "dur":265054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1717327363193604, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363193703, "dur":7831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1717327363201563, "dur":511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363202129, "dur":10622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1717327363212838, "dur":6820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1717327363219682, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363228288, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363219792, "dur":8564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1717327363228382, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363228552, "dur":112, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363228667, "dur":10466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717327363239165, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363239241, "dur":11983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717327363251387, "dur":7360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717327363258832, "dur":5135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717327363263979, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363264082, "dur":5291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717327363269395, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363269466, "dur":4186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717327363273696, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":5, "ts":1717327363276074, "dur":6865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1717327363283155, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717327363283217, "dur":13931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1717327363297277, "dur":3817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1717327363301184, "dur":194712848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327362685170, "dur":4646, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327362689817, "dur":475, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327362690292, "dur":2218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327362692512, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1717327362692587, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327362772068, "dur":59877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1717327362831986, "dur":7702, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327362891013, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327362839771, "dur":51356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1717327362891189, "dur":23298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1717327362891187, "dur":23303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1717327362914492, "dur":13277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327362928734, "dur":265528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1717327363194409, "dur":533, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363194955, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363195014, "dur":7519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1717327363202663, "dur":10341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1717327363213034, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363213326, "dur":7317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1717327363220680, "dur":520, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363221224, "dur":7969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1717327363229228, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363229319, "dur":12753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717327363242082, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363242150, "dur":9662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717327363251866, "dur":637, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363252577, "dur":6407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717327363259004, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363259235, "dur":5013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717327363264274, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363264397, "dur":5154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717327363269571, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363273894, "dur":135, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363269644, "dur":4397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717327440314363, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717327363274137, "dur":77040342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":6, "ts":1717327440315191, "dur":117698874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327362684041, "dur":5667, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327362689711, "dur":291, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327362690002, "dur":2541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327362692589, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327362890784, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327362853463, "dur":37411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1717327362890918, "dur":24250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1717327362890916, "dur":24254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1717327362915172, "dur":12814, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327362928759, "dur":265507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1717327363194336, "dur":595, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327363194988, "dur":7156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1717327363202164, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327363202245, "dur":10515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1717327363212859, "dur":6902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1717327363219861, "dur":9036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1717327363228925, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327363229023, "dur":12639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717327363241736, "dur":10037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717327363251880, "dur":621, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327363252592, "dur":6777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717327363259383, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327363259464, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717327363264564, "dur":1120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327363265731, "dur":4305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717327363270059, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717327363270156, "dur":5980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717327363276169, "dur":15737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717327363292084, "dur":8722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1717327363300937, "dur":4242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1717327363305548, "dur":194708534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327362684411, "dur":5376, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327362689788, "dur":585, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327362690374, "dur":2127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327362692543, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327362788804, "dur":50594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1717327362839437, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327362890291, "dur":102, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327362858706, "dur":31836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1717327362890816, "dur":347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Assets\\Photon\\PhotonLibs\\netstandard2.0\\Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1717327362890814, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1717327362891168, "dur":5633, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327362928202, "dur":263328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1717327363191608, "dur":578, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327363198278, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327363192210, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1717327363198433, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327363198579, "dur":10647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1717327363209246, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327363209710, "dur":6380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1717327363216158, "dur":8200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1717327363224426, "dur":9000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717327363233436, "dur":451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327363233949, "dur":10223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717327363244187, "dur":687, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327363244892, "dur":11930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717327363256868, "dur":589, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327363257485, "dur":3541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717327363261038, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327363261247, "dur":5556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717327363266868, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717327363270409, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717327363270511, "dur":4494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717327363275108, "dur":73695230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717327436970601, "dur":121043467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327362684281, "dur":5490, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327362689817, "dur":539, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327362690357, "dur":2203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327362692563, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1717327362818844, "dur":63382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1717327362882252, "dur":1185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":9, "ts":1717327362882251, "dur":1188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido.exe" }}
+,{ "pid":12345, "tid":9, "ts":1717327362883498, "dur":15609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido.exe" }}
+,{ "pid":12345, "tid":9, "ts":1717327362899216, "dur":14548, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1717327362899215, "dur":14553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1717327362913770, "dur":14194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327363193776, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327362928803, "dur":265047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1717327363194003, "dur":7259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1717327363201314, "dur":10676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1717327363212009, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1717327363212110, "dur":5669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1717327363217805, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327363218088, "dur":8026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1717327363226153, "dur":494, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327363226680, "dur":12244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717327363238941, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327363239097, "dur":7188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717327363246305, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327363257694, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327363246414, "dur":11351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717327363257836, "dur":4179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717327363262040, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327363262185, "dur":5612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717327363267860, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717327363272124, "dur":4972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717327363277128, "dur":10493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1717327363287746, "dur":8010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1717327363302755, "dur":127, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717327363295897, "dur":7005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1717327363303125, "dur":194710902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327362684699, "dur":5201, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327362689901, "dur":2662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327362692570, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1717327362692563, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1717327362818865, "dur":72858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1717327362891752, "dur":22482, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1717327362891750, "dur":22487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1717327362914239, "dur":13811, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327362928415, "dur":264999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1717327363193496, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363201123, "dur":128, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363193639, "dur":7620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1717327363211945, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363201333, "dur":10690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1717327363219323, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363212106, "dur":7362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1717327363219557, "dur":8638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1717327363228217, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363228531, "dur":103, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363228637, "dur":10657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717327363239310, "dur":2224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363241574, "dur":9551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717327363251232, "dur":6349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717327363257593, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363257681, "dur":3630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717327363261326, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363261382, "dur":131, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363266851, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717327363261516, "dur":5417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717327363267002, "dur":4065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717327363271115, "dur":5675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717327363276824, "dur":45894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1717327363322911, "dur":194691098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327362684795, "dur":5017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327362689817, "dur":335, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327362690153, "dur":2388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327362692591, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327362906587, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327362819232, "dur":87432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1717327362906705, "dur":14910, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1717327362906703, "dur":14916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1717327362921621, "dur":6107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327362928238, "dur":263230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1717327363191626, "dur":7347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1717327363199000, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327363199250, "dur":9957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1717327363209230, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327363209723, "dur":7016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1717327363216777, "dur":477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327363217273, "dur":5404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1717327363222729, "dur":6894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1717327363229636, "dur":2192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327363231866, "dur":10160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717327363242041, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327363242105, "dur":9595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717327363251774, "dur":773, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327363252566, "dur":6251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717327363258905, "dur":5538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717327363264453, "dur":1251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327363265742, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717327363269506, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327363269572, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717327363272901, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717327363274583, "dur":18791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":11, "ts":1717327363295710, "dur":238, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717327363293448, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1717327363296176, "dur":4779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1717327363303462, "dur":194710573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327362685117, "dur":4691, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327362689823, "dur":439, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327362690262, "dur":2261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327362692536, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1717327362692524, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1717327362692628, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327362890798, "dur":112, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327362818469, "dur":72463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1717327362890963, "dur":24563, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1717327362890961, "dur":24567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1717327362915530, "dur":12542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327362928424, "dur":264514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1717327363193027, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363193098, "dur":8052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1717327363201237, "dur":9561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1717327363210818, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363211070, "dur":6723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1717327363217813, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363218093, "dur":7881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1717327363226048, "dur":7370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717327363233435, "dur":380, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363233836, "dur":8763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717327363242675, "dur":10703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717327363253432, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363253880, "dur":77, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363253959, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717327363259788, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363259981, "dur":4565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717327363264558, "dur":1127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363265739, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717327363269698, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363273859, "dur":144, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717327363269924, "dur":4102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717327363274073, "dur":186250556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1717327549525170, "dur":8488874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327362684947, "dur":4949, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327362689896, "dur":2634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327362692534, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1717327362692530, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1717327362692619, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327362890804, "dur":130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327362818825, "dur":72128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1717327362890985, "dur":24634, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1717327362890984, "dur":24638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1717327362915623, "dur":12235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327362928705, "dur":264999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1717327363193850, "dur":7404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1717327363201273, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363201355, "dur":9407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1717327363210785, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363211073, "dur":6338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1717327363217479, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1717327363224785, "dur":8612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717327363233410, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363233867, "dur":8849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717327363242789, "dur":10562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717327363253452, "dur":462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363253925, "dur":5409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717327363259346, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363259410, "dur":4452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717327363263878, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363264000, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363264057, "dur":4660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717327363268790, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717327363272469, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363277169, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363272559, "dur":4702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717327363283611, "dur":149, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363277437, "dur":6345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1717327363283890, "dur":16771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level4.resS" }}
+,{ "pid":12345, "tid":13, "ts":1717327363301191, "dur":106, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717327363301299, "dur":4803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1717327363306276, "dur":194707776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327362684908, "dur":4987, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327362689895, "dur":2664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327362692568, "dur":346, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":14, "ts":1717327362692559, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1717327362818959, "dur":62918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1717327362881900, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327362881898, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327362881957, "dur":7527, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327362889557, "dur":299055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327363188648, "dur":672, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363189349, "dur":7048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1717327363196417, "dur":546, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363196986, "dur":5811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1717327363202814, "dur":3394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363206217, "dur":364, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363206590, "dur":6600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1717327363213261, "dur":6592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1717327363219892, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363220253, "dur":8057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1717327363228339, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363228651, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363228715, "dur":10205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327363239144, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363239217, "dur":7062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327363246384, "dur":11200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327363257659, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363257723, "dur":90, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363257815, "dur":3964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327363261794, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363261882, "dur":4983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327363266876, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363266980, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327363271088, "dur":6179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717327363277290, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363282993, "dur":206, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717327363277371, "dur":5840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1717327363283342, "dur":194730248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level5.resS" }}
+,{ "pid":12345, "tid":15, "ts":1717327362685082, "dur":4763, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327362689849, "dur":557, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327362690407, "dur":2079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327362692509, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1717327362692493, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1717327362692576, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327362704402, "dur":94779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1717327362799217, "dur":2990, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327362819277, "dur":71387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1717327362890782, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1717327362890868, "dur":5894, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327362897671, "dur":138573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1717327363036274, "dur":25722, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327363195658, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327363062097, "dur":133659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1717327363195786, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327363195962, "dur":6631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1717327363202645, "dur":10433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1717327363213116, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327363213311, "dur":6545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1717327363219892, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327363220306, "dur":9012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1717327363229338, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327363229561, "dur":9626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717327363239324, "dur":2211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327363241564, "dur":9490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717327363251197, "dur":7155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717327363258430, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717327363262604, "dur":375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327363263000, "dur":5197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717327363268208, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717327363268403, "dur":4041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717327363272501, "dur":4752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717327363277428, "dur":6203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1717327363283727, "dur":11263963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/level5" }}
+,{ "pid":12345, "tid":15, "ts":1717327374547823, "dur":183466167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327362684976, "dur":4852, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327362689829, "dur":1263, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327362691093, "dur":1382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327362692552, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327362693899, "dur":4820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1717327362698726, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1717327362802491, "dur":36744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1717327362839292, "dur":455, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327362839889, "dur":66819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1717327362906755, "dur":16037, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Eldoria\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1717327362906752, "dur":16043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1717327362922797, "dur":5128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327362928454, "dur":264846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1717327363193385, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363193661, "dur":7854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1717327363201547, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363202116, "dur":10669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1717327363212876, "dur":7105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1717327363220027, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363229100, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363220314, "dur":8858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1717327363229227, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363229391, "dur":12629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717327363242034, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363253077, "dur":120, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363242135, "dur":11079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717327363253337, "dur":533, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363253899, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717327363260055, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363260167, "dur":6049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717327363266239, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363266340, "dur":4372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717327363270801, "dur":5503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717327363276383, "dur":24308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":16, "ts":1717327363300800, "dur":65, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717327363300869, "dur":14012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Launcher/Eldoria El orbe perdido_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1717327363314996, "dur":194699046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717327558023952, "dur":4553, "ph":"X", "name": "ProfilerWriteOutput" }
+,
